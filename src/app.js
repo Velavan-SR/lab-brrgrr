@@ -57,7 +57,7 @@ function renderCheese() {
 
 function renderTomatoes() {
   //Trial 1 - Change the visibility of Tomatoes based on state by manipulating the DOM
-  let tomatoes = document.querySelector("#tomato");
+  let tomatoes = document.getElementById("tomato");
   if (state.Tomatoes) {
     tomatoes.style.display = "inherit";
   } else {
@@ -67,7 +67,7 @@ function renderTomatoes() {
 
 function renderOnions() {
   //Trial 1 - Change the visibility of Onions based on state by manipulating the DOM
-  let onions = document.querySelector("#onion");
+  let onions = document.getElementById("onion");
   if (state.Onions) {
     onions.style.display = "inherit";
   } else {
@@ -77,7 +77,7 @@ function renderOnions() {
 
 function renderLettuce() {
   //Trial 1 - Change the visibility of Lettuce based on state by manipulating the DOM
-  let lettuce = document.querySelector("#lettuce");
+  let lettuce = document.getElementById("lettuce");
   if (state.Lettuce) {
     lettuce.style.display = "inherit";
   } else {
